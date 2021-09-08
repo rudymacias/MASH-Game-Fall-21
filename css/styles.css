@@ -63,28 +63,19 @@ h1 {
 .choice-bucket label {
   font-size: 12px;
   line-height: 13px;
-  margin: 15px 4%;
+  margin: 0 4%;
 }
 
 .choice-bucket input {
   border: 0;
-  background: black;
   border-radius: 6px;
-  color: white;
+  color: black;
   font-size: 18px;
-  margin: 15px 4%;
+  margin: 0 4%;
   outline: 0;
   padding: 16px 0;
   text-indent: 20px;
   width: 92%;
-}
-
-.choice-bucket-secondary input {
-  background: red;
-}
-
-.choice-bucket-tertiary input {
-  background: blue;
 }
 
 .choice-bucket label ~ input {
@@ -130,3 +121,15 @@ h1 {
   opacity: 1;
   height: 100%;
 }
+
+.logo {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.logo img {
+	width: 200px;
+  filter: brightness(0) invert(1);
+}
+
+
